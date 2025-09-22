@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TTT | Waste Management</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://i.ibb.co/rGFPjXr6/l.jpg" alt="TTT Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#register">Register</a></li>
+      <li><a href="#landmark">Landmarks</a></li>
+      <li><a href="#waste">Waste Types</a></li>
+      <li><a href="#strategies">Strategies</a></li>
+      <li><a href="#tracking">Tracking</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Get More Information for Waste Management</h1>
+      <p>TTT provides smart solutions for sustainable waste handling.</p>
+      <a href="#register" class="btn">Get Started</a>
+    </div>
+  </header>
+
+  <!-- User Registration -->
+  <section id="register" class="info-section green">
+    <div class="container">
+      <i class="fas fa-user-plus icon"></i>
+      <h2>User Registration</h2>
+      <p>Sign up to join our eco-community and access personalized waste management services.</p>
+    </div>
+  </section>
+
+  <!-- Landmark Details -->
+  <section id="landmark" class="info-section blue">
+    <div class="container">
+      <i class="fas fa-map-marker-alt icon"></i>
+      <h2>Landmark Details</h2>
+      <p>Register your location to connect with nearby recycling centers and collection points.</p>
+    </div>
+  </section>
+
+  <!-- Types of Waste Materials -->
+  <section id="waste" class="info-section yellow">
+    <div class="container">
+      <i class="fas fa-recycle icon"></i>
+      <h2>Types of Waste Materials</h2>
+      <p>Learn to identify biodegradable, recyclable, and hazardous waste for proper disposal.</p>
+    </div>
+  </section>
+
+  <!-- List of Treasures and Strategies -->
+  <section id="strategies" class="info-section gray">
+    <div class="container">
+      <i class="fas fa-lightbulb icon"></i>
+      <h2>Treasures & Strategies</h2>
+      <p>Discover eco-friendly strategies and creative reuse ideas that turn waste into treasure.</p>
+    </div>
+  </section>
+
+  <!-- Tracking the Strategies -->
+  <section id="tracking" class="info-section dark">
+    <div class="container">
+      <i class="fas fa-chart-line icon"></i>
+      <h2>Tracking Strategies</h2>
+      <p>Monitor your progress and track the impact of your sustainable practices over time.</p>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="info-section light">
+    <div class="container">
+      <i class="fas fa-envelope icon"></i>
+      <h2>Contact Us</h2>
+      <p>Have questions or suggestions? Reach out to us anytime for support.</p>
+      <a href="mailto:info@ttt.com" class="btn">Email Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 TTT - Waste Management. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Mobile Menu Toggle
+    const toggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+    toggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
